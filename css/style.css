@@ -101,10 +101,8 @@ Container
     height: 610px;
     width: 1050px;
     margin: 0 auto;
-    position: relative;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
 }
 
 .separator-container {
