@@ -60,7 +60,16 @@ nav div ul li a {
 
 h1 {
     font-size: 70px;
+    padding-bottom: 40px;
 }
+
+main div.jumbotron-container img {
+    height: 460px;
+    width: 750px;
+}
+
+
+
 
 
 /******
@@ -88,7 +97,28 @@ Container
 .jumbotron-container {
     height: 610px;
     width: 1050px;
-    display: flex;
     margin: 0 auto;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.separator-container {
+    display: flex;
+    max-width: 100%;
+}
+
+.text-container {
+    flex-grow: 1;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.image-container {
+    flex-grow: 2;
+    flex-shrink: 0;
+    height: 375px;
 }
