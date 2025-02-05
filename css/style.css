@@ -26,6 +26,8 @@ header {
 nav {
     width: 1870px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav div ul {
