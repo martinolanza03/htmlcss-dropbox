@@ -24,6 +24,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
+    border-bottom: 1px solid #d1dae1 ;
 }
 
 nav {
@@ -38,6 +39,10 @@ nav div ul {
     display: flex;
     gap: 40px;
     align-items: center;
+}
+
+nav div ul li {
+    position: relative;
 }
 
 /******
