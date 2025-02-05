@@ -74,7 +74,9 @@ main div.text-container p i {
     font-size: 50px;
 }
 
-
+hr {
+    color: #f5f5f5 ;
+}
 
 /******
 Button
@@ -96,6 +98,7 @@ Container
     height: 740px;
     padding-top: 100px;
     background-color: #b4d0e6;
+    margin-bottom: 125px;
 }
 
 .jumbotron-container {
