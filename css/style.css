@@ -27,6 +27,7 @@ nav div ul {
     display: flex;
     gap: 40px;
 }
+
 nav div ul li {
     align-items: flex-start;
 }
