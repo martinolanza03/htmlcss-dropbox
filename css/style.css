@@ -128,3 +128,8 @@ Container
     flex-shrink: 0;
     height: 375px;
 }
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
