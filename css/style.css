@@ -31,6 +31,7 @@ nav {
 nav div ul {
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 
 nav div ul li {
@@ -43,4 +44,9 @@ General
 
 ul {
     list-style: none;
+}
+
+nav div ul li a {
+    text-decoration: none;
+    color: #000000;
 }
