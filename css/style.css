@@ -21,6 +21,9 @@ Header
 header {
     background-color: #FFFFFF;
     padding: 30px 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 nav {
