@@ -64,11 +64,14 @@ h1 {
 }
 
 main div.jumbotron-container img {
-    height: 460px;
+    height: 500px;
     width: 750px;
 }
 
-
+main div.text-container p i {
+    padding-top: 30px;
+    font-size: 50px;
+}
 
 
 
@@ -115,6 +118,7 @@ Container
     display: flex;
     flex-direction: column;
     gap: 35px;
+    align-items: flex-start;
 }
 
 .image-container {
