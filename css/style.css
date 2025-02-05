@@ -1,9 +1,40 @@
 /******
-RESET
+Reset
 ******/
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+/******
+Header
+******/
+
+header {
+    background-color: #FFFFFF;
+    padding: 30px 20px;
+}
+
+nav {
+    width: 1870px;
+    display: flex;
+}
+
+nav div ul {
+    display: flex;
+    gap: 40px;
+}
+nav div ul li {
+    align-items: flex-start;
+}
+
+/******
+General
+******/
+
+ul {
+    list-style: none;
 }
