@@ -127,6 +127,21 @@ div.container-cost-plain div.cost-plain div.information-cost hr {
     margin-bottom: 58px;
 }
 
+div.container-cost-plain div.cost-plain div.information-cost h5 {
+    margin-bottom: 40px;
+}
+
+div.container-cost-plain div.cost-plain div.information-cost ul {
+    list-style-type: none;
+}
+
+div.container-cost-plain div.cost-plain div.information-cost li {
+    margin-bottom: 30px;
+}
+
+div.container-cost-plain div.cost-plain div.information-cost li i {
+    color: #0061fe;
+}
 /******
 Button
 ******/
