@@ -151,9 +151,6 @@ div.container-cost-plain div.cost-plain div.information-cost button.blu-button {
     margin-bottom: 37px;
 }
 
-div.container div.separator-container{
-    margin-bottom: 175px;
-}
 
 div.container div.separator-container img.image-container {
     width: 60%;
@@ -310,6 +307,7 @@ Container
     flex-wrap: wrap;
     gap: 70px;
     margin-bottom: 215px ;
+    margin-top: 175px;
 }
 
 .operation {
