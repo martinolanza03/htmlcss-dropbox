@@ -147,10 +147,6 @@ div.container-cost-plain div.cost-plain:last-child {
     width: 100%;
 }
 
-div.container-cost-plain div.cost-plain div.information-cost div.separator-container {
-    align-items: center;
-}
-
 /******
 Button
 ******/
@@ -240,6 +236,7 @@ Container
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+    margin-bottom: 220px;
 }
 
 .cost-plain {
@@ -255,4 +252,17 @@ Container
     flex-direction: column;
     gap: 26px;
     padding-bottom: 52px;
+}
+
+.information-left-container {
+    width: 80%;
+    margin-bottom: 33px;
+}
+
+.information-right-container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    padding-top: 40px;
 }
