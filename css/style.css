@@ -89,6 +89,12 @@ div.invoices div {
     padding-right: 50px;
 }
 
+.title-cost-plain {
+    width: 300px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
 /******
 Button
 ******/
@@ -178,6 +184,7 @@ Container
 }
 
 .cost-plain {
+    flex-direction: column;
     display: flex;
     width: calc((100%- 50px) /3) ;
     border: 1px solid #000000;
