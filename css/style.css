@@ -92,6 +92,9 @@ Button
     color: #FFFFFF;
 }
 
+.blu-button:hover {
+    filter: brightness(1.4);
+}
 
 /******
 Container
