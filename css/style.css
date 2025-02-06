@@ -172,6 +172,9 @@ div.container div.separator-container div.text-container h2 {
     font-size: 23px;
 }
 
+div.container div.operation-container h2 {
+    margin-bottom: 55px;
+}
 
 /******
 Button
