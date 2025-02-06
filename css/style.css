@@ -77,6 +77,10 @@ h2 {
     padding-bottom: 80px;
 }
 
+h3 {
+    padding-top: 40px ;
+}
+
 .invoices {
     display: flex;
     padding-bottom: 60px;
@@ -91,11 +95,36 @@ div.invoices div {
 
 .title-cost-plain {
     display: flex;
-    border: 1px solid #d0cfd4;
+    border-bottom: 1px solid #d0cfd4;
     align-items: center; 
     justify-content: center;
     gap: 5px;
     padding: 10px 0px;
+}
+
+.information-cost {
+    padding: 0px 35px;
+}
+
+.cost{
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.duration {
+    color: #706d66 ;
+    padding-bottom: 57px;
+}
+
+.link-information {
+    margin-bottom: 40px;
+}
+
+div.container-cost-plain div.cost-plain div.information-cost hr {
+    width: 48px ;
+    margin-bottom: 58px;
 }
 
 /******
@@ -111,6 +140,10 @@ Button
 
 .blu-button:hover {
     filter: brightness(1.4);
+}
+
+div.container-cost-plain div.cost-plain div.information-cost button.blu-button {
+    margin-bottom: 37px;
 }
 
 /******
@@ -191,4 +224,11 @@ Container
     width: calc((100% - 100px) /3);
     border: 1px solid #d0cfd4;
     flex-shrink: 0;
+}
+
+.information-plain {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    padding-bottom: 52px;
 }
