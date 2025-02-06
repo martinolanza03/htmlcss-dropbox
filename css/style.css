@@ -81,6 +81,13 @@ h2 {
     display: flex;
 }
 
+div.invoices div {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding-right: 50px;
+}
+
 /******
 Button
 ******/
