@@ -79,6 +79,7 @@ h2 {
 
 .invoices {
     display: flex;
+    padding-bottom: 60px;
 }
 
 div.invoices div {
@@ -167,4 +168,17 @@ Container
     display: inline-block;
     color: #FFFFFF;
     border:4px solid #eeeef0;
+}
+
+.container-cost-plain {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 50px
+}
+
+.cost-plain {
+    display: flex;
+    width: calc((100%- 50px) /3) ;
+    border: 1px solid #000000;
 }
