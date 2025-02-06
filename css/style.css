@@ -142,6 +142,15 @@ div.container-cost-plain div.cost-plain div.information-cost li {
 div.container-cost-plain div.cost-plain div.information-cost li i {
     color: #0061fe;
 }
+
+div.container-cost-plain div.cost-plain:last-child {
+    width: 100%;
+}
+
+div.container-cost-plain div.cost-plain div.information-cost div.separator-container {
+    align-items: center;
+}
+
 /******
 Button
 ******/
