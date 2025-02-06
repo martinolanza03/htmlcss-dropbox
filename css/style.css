@@ -39,6 +39,15 @@ nav div ul {
     gap: 40px;
     align-items: center;
 }
+/******
+Footer
+******/
+
+footer{
+    margin-top: 185px ;
+    background-color: #000000;
+}
+
 
 /******
 General
