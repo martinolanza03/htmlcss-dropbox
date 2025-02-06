@@ -160,6 +160,7 @@ div.container div.separator-container div.text-container {
     padding: 55px;
     width: 40%;
     gap: 35px;
+    
 }
 
 div.container div.separator-container div.text-container h2 {
@@ -183,6 +184,12 @@ Button
     filter: brightness(1.4);
 }
 
+.white-button {
+    border: 1px solid #000000;
+    padding: 10px 17px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
 
 /******
 Container
