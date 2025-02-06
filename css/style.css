@@ -91,12 +91,11 @@ div.invoices div {
 
 .title-cost-plain {
     display: flex;
-    padding: 10px ;
-    width: 300px;
     border: 1px solid #d0cfd4;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
     gap: 5px;
+    padding: 10px 0px;
 }
 
 /******
@@ -183,13 +182,13 @@ Container
 .container-cost-plain {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    gap: 50px
+    gap: 50px;
 }
 
 .cost-plain {
     flex-direction: column;
     display: flex;
-    width: calc((100%- 50px) /3) ;
+    width: calc((100% - 100px) /3);
     border: 1px solid #d0cfd4;
+    flex-shrink: 0;
 }
