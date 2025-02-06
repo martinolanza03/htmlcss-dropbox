@@ -346,6 +346,7 @@ Container
     width: 1050px;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     color: #FFFFFF;
+    gap: 100px;
 }
