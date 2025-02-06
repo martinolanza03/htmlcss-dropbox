@@ -302,6 +302,7 @@ Container
     display: flex;
     flex-wrap: wrap;
     gap: 70px;
+    margin-bottom: 215px ;
 }
 
 .operation {
