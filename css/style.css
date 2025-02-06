@@ -147,6 +147,27 @@ div.container-cost-plain div.cost-plain:last-child {
     width: 100%;
 }
 
+div.container-cost-plain div.cost-plain div.information-cost button.blu-button {
+    margin-bottom: 37px;
+}
+
+div.container div.separator-container img.image-container {
+    width: 60%;
+}
+
+div.container div.separator-container div.text-container {
+    display: flex;
+    padding: 55px;
+    width: 40%;
+    gap: 35px;
+}
+
+div.container div.separator-container div.text-container h2 {
+    padding: 0;
+    font-size: 23px;
+}
+
+
 /******
 Button
 ******/
@@ -162,9 +183,6 @@ Button
     filter: brightness(1.4);
 }
 
-div.container-cost-plain div.cost-plain div.information-cost button.blu-button {
-    margin-bottom: 37px;
-}
 
 /******
 Container
