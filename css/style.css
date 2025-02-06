@@ -102,9 +102,9 @@ Container
 
 .jumbotron {
     height: 740px;
-    padding-top: 100px;
     background-color: #b4d0e6;
     margin-bottom: 125px;
+    position: relative;
 }
 
 .jumbotron-container {
@@ -113,6 +113,8 @@ Container
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    position: relative;
+    bottom: -100px;
 }
 
 .separator-container {
@@ -122,17 +124,17 @@ Container
 
 .text-container {
     flex-grow: 1;
-    height: 375px;
     display: flex;
     flex-direction: column;
     gap: 35px;
     align-items: flex-start;
+    width: 30%;
 }
 
 .image-container {
     flex-grow: 2;
     flex-shrink: 0;
-    height: 375px;
+    width: 70%;
 }
 
 .container {
